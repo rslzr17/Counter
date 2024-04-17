@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+
+font-family: "Montserrat", sans-serif;
+ 
+
+
+
+ body {
+    background-color: #2e2e2e;
+    font-family: "Montserrat", sans-serif;
+    color:#ffffff;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container {
+    max-width: 80%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1 {
+    margin-top: 64px;
+    margin-bottom: 0px;
+    font-size: 60px;
+    font-weight: 200;
+}
+
+
+h2 {
+    font-size: 80px;
+    margin-top 0px;
+    margin-bottom: 40px;  
+    font-weight: 700;
+}
+
+
+p {
+    margin-bottom: 40px
+}
+
+
+button {
+    border-radius: 30px;
+    width: 300px;
+    height: 100px;
+    margin: 0px 0px 20px;
+    background-color: #ffffff;
+    color:#2e2e2e;
+    border: 0px solid;
+    font-size: large;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+#save-btn {
+    margin-bottom:44px;
+}
+
+
+button:hover {
+    color :rgb(66, 66, 66)
+}
+
+
+button:active {
+    background-color:#ebecee;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
